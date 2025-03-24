@@ -3,7 +3,7 @@ import AppRoutes from "./components/AppRoutes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <AppRoutes />
     </BrowserRouter>
   );
